@@ -1,36 +1,36 @@
-######################
-CodeIgniter User Guide
-######################
+#####################
+Manual do CodeIgniter 
+#####################
 
-******************
-Setup Instructions
-******************
+**********
+Instruções
+**********
 
-The CodeIgniter user guide uses Sphinx to manage the documentation and
-output it to various formats.  Pages are written in human-readable
-`ReStructured Text <http://sphinx.pocoo.org/rest.html>`_ format.
+O manual do CodeIgniter usa o Sphinx para gerir a documentacão e os vários
+formatos de saída. Páginas são escritas utilizando o formato
+`ReStructured Text <http://sphinx.pocoo.org/rest.html>`_.
 
-Prerequisites
-=============
+Pré-requisitos
+==============
 
-Sphinx requires Python, which is already installed if you are running OS X.
-You can confirm in a Terminal window by executing the ``python`` command
-without any parameters.  It should load up and tell you which version you have
-installed.  If you're not on 2.7+, go ahead and install 2.7.2 from
+Sphinx requer Python, que se você estiver no OS X já está instalado.
+Você pode confirmar dentro do Terminal executando o comando ``python``
+sem nenhum paramêtro. Esta ação deve carregar e informar qual versão
+você tem instalada. Se não for 2.7+, instale a 2.7.2 aqui
 http://python.org/download/releases/2.7.2/
 
-Installation
-============
+Instalação
+==========
 
-1. Install `easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_
+1. Instalar `easy_install <http://peak.telecommunity.com/DevCenter/EasyInstall#installing-easy-install>`_
 2. ``easy_install sphinx``
 3. ``easy_install sphinxcontrib-phpdomain``
-4. Install the CI Lexer which allows PHP, HTML, CSS, and JavaScript syntax highlighting in code examples (see *cilexer/README*)
+4. Instalar o CI Lexer que permite sintaxe nos códigos para PHP, HTML, CSS, and JavaScript, exemplos (veja *cilexer/README*)
 5. ``cd user_guide_src``
 6. ``make html``
 
-Editing and Creating Documentation
-==================================
+Editando e Criando Documentação
+===============================
 
 All of the source files exist under *source/* and is where you will add new
 documentation or modify existing documentation.  Just as with code changes,
