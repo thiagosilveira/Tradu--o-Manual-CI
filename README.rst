@@ -32,13 +32,16 @@ Instalação
 Editando e Criando Documentação
 ===============================
 
-All of the source files exist under *source/* and is where you will add new
+Todos os arquivos estão dentro de *source/* e é aqui que você
+adiciona nova documentação ou altera a já existente. Assim como
+na alteração de códigos, nós recomendamos trabalhar com os branches e
+depois fazer um pull request para o branch and is where you will add new
 documentation or modify existing documentation.  Just as with code changes,
 we recommend working from feature branches and making pull requests to
 the *develop* branch of this repo.
 
-So where's the HTML?
-====================
+Então onde está o HTML?
+=======================
 
 Obviously, the HTML documentation is what we care most about, as it is the
 primary documentation that our users encounter.  Since revisions to the built
