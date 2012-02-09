@@ -1,33 +1,33 @@
-Welcome to CodeIgniter
-======================
+Bem Vindo ao CodeIgniter
+========================
 
-CodeIgniter is an Application Development Framework - a toolkit - for
-people who build web sites using PHP. Its goal is to enable you to
-develop projects much faster than you could if you were writing code
-from scratch, by providing a rich set of libraries for commonly needed
-tasks, as well as a simple interface and logical structure to access
-these libraries. CodeIgniter lets you creatively focus on your project
-by minimizing the amount of code needed for a given task.
+CodeIgniter é um framework para desenvolvimento de aplicações para
+pessoas que desenvolvem sites com PHP. O seu objetivo é deixar o seu
+desenvolvimento muito mais rápido do que se você escrevesse o código
+do zero, fornecendo uma vasta gama de bibliotecas para uso comum de 
+tarefas e também uma interface simples e uma estrutura lógica de acesso
+a estas bibliotecas. CodeIgniter deixa o teu foco na creatividade do seu
+projeto minimizando a quantidade de código necessário para uma determinada
+tarefa.
 
-Who is CodeIgniter For?
+A quem o CodeIgniter se destina?
 =======================
 
-CodeIgniter is right for you if:
+CodeIgniter é para si se:
 
--  You want a framework with a small footprint.
--  You need exceptional performance.
--  You need broad compatibility with standard hosting accounts that run
-   a variety of PHP versions and configurations.
--  You want a framework that requires nearly zero configuration.
--  You want a framework that does not require you to use the command
-   line.
--  You want a framework that does not require you to adhere to
-   restrictive coding rules.
--  You are not interested in large-scale monolithic libraries like PEAR.
--  You do not want to be forced to learn a templating language (although
-   a template parser is optionally available if you desire one).
--  You eschew complexity, favoring simple solutions.
--  You need clear, thorough documentation.
+-  Você quer um framework leve.
+-  Você precisa de performance.
+-  Você precisa de compatibilidade entre as hospedagens que têm
+   uma variedade de configurações e versões de PHP.
+-  Você quer um framework que necessita um mínimo de configuração.
+-  Você quer um framework que não requer o uso da linha de comando.
+-  Você quer um framework que não exige que você a aderira a 
+   restritivas regras de codificação.
+-  Você não está interessado em grandes bibliotecas monolíticas como PEAR.
+-  Você não quer ser forçado a aprender uma linguagem de template (um
+   parser de template está disponível caso queira utiliza-ló).
+-  Você evita a complexidade, favorecendo soluções simples.
+-  Você precisa de uma documentação limpa.
 
 
 .. toctree::

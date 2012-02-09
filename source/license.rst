@@ -1,18 +1,18 @@
-###################################
-Open Software License ("OSL") v 3.0
-###################################
+######################################
+Licença de Software Open ("OSL") v 3.0
+######################################
 
-This Open Software License (the "License") applies to any original work of
-authorship (the "Original Work") whose owner (the "Licensor") has placed the
-following licensing notice adjacent to the copyright notice for the Original
-Work:
+Esta licença de software aberto (a "Licença") aplica-se a qualquer trabalho
+original de autoria (a "Obra Original"), cujo proprietário (o "Licenciante"),
+colocou a após a notificação de licenciamento junto ao aviso de direitos
+autorais para a obra original:
 
-*Licensed under the Open Software License version 3.0*
+*Licenciado sob a versão Open Software Licença 3.0*
 
 
-*****************************
-1) Grant of Copyright License
-*****************************
+********************************************
+1) Concessão de Licença de Direitos Autorais
+********************************************
 
 Licensor grants You a worldwide, royalty-free, non-exclusive, sublicensable
 license, for the duration of the copyright, to do the following:

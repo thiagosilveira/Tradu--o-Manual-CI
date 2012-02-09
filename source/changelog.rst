@@ -2,10 +2,10 @@
 Change Log
 ##########
 
-Version 3.0 (planned)
+Versão 3.0 (planned)
 =======================
 
-Release Date: Not Released
+Data de lançamento: Not Released
 
 -  License
 
@@ -47,7 +47,7 @@ Release Date: Not Released
       get_compiled_insert(), get_compiled_update(), get_compiled_delete().
    -  Taking care of LIKE condition when used with MySQL UPDATE statement.
    -  Adding $escape parameter to the order_by function, this enables ordering by custom fields.
-   -  MySQLi driver now uses mysqli_get_server_info() for server version checking.
+   -  MySQLi driver now uses mysqli_get_server_info() for server Versão checking.
    -  MySQLi driver now supports persistent connections when running on PHP >= 5.3.
 
 -  Libraries
@@ -72,7 +72,7 @@ Release Date: Not Released
 -  Core
 
    -  Changed private functions in CI_URI to protected so MY_URI can override them.
-   -  Removed CI_CORE boolean constant from CodeIgniter.php (no longer Reactor and Core versions).
+   -  Removed CI_CORE boolean constant from CodeIgniter.php (no longer Reactor and Core Versãos).
    -  Added method get_vars() to CI_Loader to retrieve all variables loaded with $this->load->vars().
    -  is_loaded() function from system/core/Commons.php now returns a reference.
 
@@ -102,10 +102,10 @@ Bug fixes for 3.0
 -  Fixed a hosting edge case where an empty $_SERVER['HTTPS'] variable would evaluate to 'on'
 -  Fixed a bug (#154) - ``CI_Session::sess_update()`` caused the session to be destroyed on pages where multiple AJAX requests were executed at once.
 
-Version 2.1.0
+Versão 2.1.0
 =============
 
-Release Date: Not Released
+Data de lançamento: Not Released
 
 -  General Changes
 
@@ -161,7 +161,7 @@ Release Date: Not Released
 
    -  Changed private functions in CI_URI to protected so MY_URI can
       override them.
-   -  Removed CI_CORE boolean constant from CodeIgniter.php (no longer Reactor and Core versions).
+   -  Removed CI_CORE boolean constant from CodeIgniter.php (no longer Reactor and Core Versãos).
 
 
 Bug fixes for 2.1.0
@@ -201,19 +201,19 @@ Bug fixes for 2.1.0
 -  Fixed invalid date time format in :doc:`Date helper <helpers/date_helper>` and :doc:`XMLRPC library <libraries/xmlrpc>`.
 -  Fixed a bug (#200) - MySQL queries would be malformed after calling count_all() then db->get().
 
-Version 2.0.3
+Versão 2.0.3
 =============
 
-Release Date: August 20, 2011
+Data de lançamento: Agosto 20, 2011
 
 -  Security
 
    -  An improvement was made to the MySQL and MySQLi drivers to prevent
       exposing a potential vector for SQL injection on sites using
       multi-byte character sets in the database client connection.
-      An incompatibility in PHP versions < 5.2.3 and MySQL < 5.0.7 with
+      An incompatibility in PHP Versãos < 5.2.3 and MySQL < 5.0.7 with
       *mysql_set_charset()* creates a situation where using multi-byte
-      character sets on these environments may potentially expose a SQL
+      character sets on these environments Maio potentially expose a SQL
       injection attack vector. Latin-1, UTF-8, and other "low ASCII"
       character sets are unaffected on all environments.
 
@@ -297,10 +297,10 @@ Bug fixes for 2.0.3
    whole is more reliable. This should get parameters in crontab
    working.
 
-Version 2.0.2
+Versão 2.0.2
 =============
 
-Release Date: April 7, 2011
+Data de lançamento: Abril 7, 2011
 Hg Tag: v2.0.2
 
 -  General changes
@@ -308,7 +308,7 @@ Hg Tag: v2.0.2
    -  The :doc:`Security library <./libraries/security>` was moved to
       the core and is now loaded automatically. Please remove your
       loading calls.
-   -  The CI_SHA class is now deprecated. All supported versions of PHP
+   -  The CI_SHA class is now deprecated. All supported Versãos of PHP
       provide a sha1() function.
    -  constants.php will now be loaded from the environment folder if
       available.
@@ -351,10 +351,10 @@ Bug fixes for 2.0.2
    #172 <https://bitbucket.org/ellislab/codeigniter-reactor/issue/172/bug-in-chrome-and-form_open-in-201>`_
    Google Chrome 11 posts incorrectly when action is empty.
 
-Version 2.0.1
+Versão 2.0.1
 =============
 
-Release Date: March 15, 2011
+Data de lançamento: Março 15, 2011
 Hg Tag: v2.0.1
 
 -  General changes
@@ -405,16 +405,16 @@ Bug fixes for 2.0.1
 
 .. _2.0.0-changelog:
 
-Version 2.0.0
+Versão 2.0.0
 =============
 
-Release Date: January 28, 2011
+Data de lançamento: Janeiro 28, 2011
 Hg Tag: v2.0.0
 
 -  General changes
 
    -  PHP 4 support is removed. CodeIgniter now requires PHP 5.1.6.
-   -  Scaffolding, having been deprecated for a number of versions, has
+   -  Scaffolding, having been deprecated for a number of Versãos, has
       been removed.
    -  Plugins have been removed, in favor of Helpers. The CAPTCHA plugin
       has been converted to a Helper and
@@ -547,8 +547,8 @@ Hg Tag: v2.0.0
       configuration <./database/configuration>`.
    -  Added database_exists() to the :doc:`Database Utilities
       Class <database/utilities>`.
-   -  Semantic change to db->version() function to allow a list of
-      exceptions for databases with functions to return version string
+   -  Semantic change to db->Versão() function to allow a list of
+      exceptions for databases with functions to return Versão string
       instead of specially formed SQL queries. Currently this list only
       includes Oracle and SQLite.
    -  Fixed a bug where driver specific table identifier protection
@@ -690,7 +690,7 @@ Bug fixes for 2.0.0
 -  Fixed a bug in the Email library where CC and BCC recipients were not
    reset when using the clear() method (#109).
 -  Fixed a bug in the URL Helper where prep_url() could cause a PHP
-   error on PHP versions < 5.1.2.
+   error on PHP Versãos < 5.1.2.
 -  Added a log message in core/output if the cache directory config
    value was not found.
 -  Fixed a bug where multiple libraries could not be loaded by passing
@@ -701,10 +701,10 @@ Bug fixes for 2.0.0
 -  Fixed a bug in the date helper where the DATE_ISO8601 variable was
    returning an incorrectly formatted date string.
 
-Version 1.7.2
+Versão 1.7.2
 =============
 
-Release Date: September 11, 2009
+Data de lançamento: Setembro 11, 2009
 Hg Tag: v1.7.2
 
 -  Libraries
@@ -719,7 +719,7 @@ Hg Tag: v1.7.2
 -  Database
 
    -  Switched from using gettype() in escape() to is\_* methods, since
-      future PHP versions might change its output.
+      future PHP Versãos might change its output.
    -  Updated all database drivers to handle arrays in escape_str()
    -  Added escape_like_str() method for escaping strings to be used
       in LIKE conditions
@@ -761,7 +761,7 @@ Hg Tag: v1.7.2
       Output class is unavailable.
    -  Added is_php() to :doc:`Common
       functions <general/common_functions>` to facilitate PHP
-      version comparisons.
+      Versão comparisons.
    -  Added 2 CodeIgniter "cheatsheets" (thanks to DesignFellow.com for
       this contribution).
 
@@ -776,7 +776,7 @@ Bug fixes for 1.7.2
 -  Fixed a bug in the language class when outputting an error for an
    unfound file.
 -  Fixed a bug in the Calendar library where the shortname was output
-   for "May".
+   for "Maio".
 -  Fixed a bug with ORIG_PATH_INFO that was allowing URIs of just a
    slash through.
 -  Fixed a fatal error in the Oracle and ODBC drivers (#6752)
@@ -804,10 +804,10 @@ Bug fixes for 1.7.2
 -  Fixed a bug in the typography class where heading tags could have
    paragraph tags inserted when using auto_typography().
 
-Version 1.7.1
+Versão 1.7.1
 =============
 
-Release Date: February 10, 2009
+Data de lançamento: Fevereiro 10, 2009
 Hg Tag: 1.7.1
 
 -  Libraries
@@ -928,10 +928,10 @@ Bug fixes for 1.7.1
    where recursion was not occurring properly.
 -  Tweaked Typography::auto_typography() for some edge-cases.
 
-Version 1.7
+Versão 1.7
 ===========
 
-Release Date: October 23, 2008
+Data de lançamento: Outubro 23, 2008
 Hg Tag: 1.7.0
 
 -  Libraries
@@ -944,7 +944,7 @@ Hg Tag: 1.7.0
       the old Validation class is now deprecated**. We will leave it in
       the library folder for some time so that existing applications
       that use it will not break, but you are encouraged to migrate to
-      the new version.
+      the new Versão.
    -  Updated the :doc:`Sessions class <libraries/sessions>` so that
       any custom data being saved gets stored to a database rather than
       the session cookie (assuming you are using a database to store
@@ -1105,13 +1105,13 @@ Bug fixes for 1.7.0
 -  Fixed a bug in which the parser was being greedy if multiple
    identical sets of tags were encountered.
 
-Version 1.6.3
+Versão 1.6.3
 =============
 
-Release Date: June 26, 2008
+Data de lançamento: Junho 26, 2008
 Hg Tag: v1.6.3
 
-Version 1.6.3 is a security and maintenance release and is recommended
+Versão 1.6.3 is a security and maintenance release and is recommended
 for all users.
 
 -  Database
@@ -1180,10 +1180,10 @@ Bug fixes for 1.6.3
 -  Fixed a double opening <p> tag in the index pages of each system
    directory.
 
-Version 1.6.2
+Versão 1.6.2
 =============
 
-Release Date: May 13, 2008
+Data de lançamento: Maio 13, 2008
 Hg Tag: 1.6.2
 
 -  Active Record
@@ -1267,7 +1267,7 @@ Hg Tag: 1.6.2
    -  Removed closing PHP tags from all PHP files to avoid accidental
       output and potential 'cannot modify headers' errors.
    -  Removed "scripts" from the auto-load search path. Scripts were
-      deprecated in Version 1.4.1 (September 21, 2006). If you still
+      deprecated in Versão 1.4.1 (Setembro 21, 2006). If you still
       need to use them for legacy reasons, they must now be manually
       loaded in each Controller.
    -  Added a :doc:`Reserved Names <general/reserved_names>` page to
@@ -1326,7 +1326,7 @@ Bugfixes for 1.6.2
    error heading.
 -  Fixed a bug (#4413) where a URI containing slashes only e.g.
    'http://example.com/index.php?//' would result in PHP errors
--  Fixed an array to string conversion error in the Validation library
+-  Fixed an array to string conVersão error in the Validation library
    (#4425)
 -  Fixed bug (#4451, #4299, #4339) where failed transactions will not
    rollback when debug mode is enabled.
@@ -1335,10 +1335,10 @@ Bugfixes for 1.6.2
 -  Fixed assorted user guide typos (#3453, #4364, #4379, #4399, #4408,
    #4412, #4448, #4488).
 
-Version 1.6.1
+Versão 1.6.1
 =============
 
-Release Date: February 12, 2008
+Data de lançamento: Fevereiro 12, 2008
 Hg Tag: 1.6.1
 
 -  Active Record
@@ -1396,10 +1396,10 @@ Bugfixes for 1.6.1
    to begin with 1 when the default controller is used.
 -  Fixed assorted user guide typos.
 
-Version 1.6.0
+Versão 1.6.0
 =============
 
-Release Date: January 30, 2008
+Data de lançamento: Janeiro 30, 2008
 
 -  DBForge
 
@@ -1470,7 +1470,7 @@ Release Date: January 30, 2008
    -  Added the ability to :doc:`auto-load <./general/autoloader>`
       :doc:`Models <./general/models>`.
    -  Reorganized the URI and Routes classes for better clarity.
-   -  Added Compat.php to allow function overrides for older versions of
+   -  Added Compat.php to allow function overrides for older Versãos of
       PHP or PHP environments missing certain extensions / libraries
    -  Added memory usage, GET, URI string data, and individual query
       execution time to Profiler output.
@@ -1549,7 +1549,7 @@ Release Date: January 30, 2008
    -  Documented 2 config options to the :doc:`Database
       configuration <./database/configuration>` page.
 
-Bug fixes for Version 1.6.0
+Bug fixes for Versão 1.6.0
 ---------------------------
 
 -  Fixed a bug (#1813) preventing using $CI->db in the same application
@@ -1664,10 +1664,10 @@ Bug fixes for Version 1.6.0
    files.
 -  Fixed assorted user guide typos.
 
-Version 1.5.4
+Versão 1.5.4
 =============
 
-Release Date: July 12, 2007
+Data de lançamento: Julho 12, 2007
 
 -  Added :doc:`custom Language files <./libraries/language>` to the
    :doc:`autoload <./general/autoloader>` options.
@@ -1735,13 +1735,13 @@ Release Date: July 12, 2007
    periods. Due to compatibility problems with ctype_digit(), making it
    unreliable in some installations, the following regular expression
    was used instead: preg_match("/[^0-9]/", $n)
--  Deprecated: APPVER has been deprecated and replaced with CI_VERSION
+-  Deprecated: APPVER has been deprecated and replaced with CI_Versão
    for clarity.
 
-Version 1.5.3
+Versão 1.5.3
 =============
 
-Release Date: April 15, 2007
+Data de lançamento: Abril 15, 2007
 
 -  Added array to string into the profiler
 -  Code Igniter references updated to CodeIgniter
@@ -1754,17 +1754,17 @@ Release Date: April 15, 2007
 -  Fixed a bug in the redirect function of the :doc:`url
    helper <./helpers/url_helper>`.
 -  Fixed an undefined variable in Loader
--  Fixed a version bug in the Postgres driver
+-  Fixed a Versão bug in the Postgres driver
 -  Fixed a bug in the textarea function of the form helper for use with
    strings
 -  Fixed doc typos.
 
-Version 1.5.2
+Versão 1.5.2
 =============
 
-Release Date: February 13, 2007
+Data de lançamento: Fevereiro 13, 2007
 
--  Added subversion information
+-  Added subVersão information
    to the :doc:`downloads <installation/downloads>` page.
 -  Added support for captions in the :doc:`Table
    Library <./libraries/table>`
@@ -1783,10 +1783,10 @@ Release Date: February 13, 2007
    was ignoring resizing the same size image
 -  Fixed some doc typos.
 
-Version 1.5.1
+Versão 1.5.1
 =============
 
-Release Date: November 23, 2006
+Data de lançamento: Novembro 23, 2006
 
 -  Added support for submitting arrays of libraries in the
    $this->load->library function.
@@ -1805,10 +1805,10 @@ Release Date: November 23, 2006
 -  Fixed an incorrectly named variable in the MySQLi result driver.
 -  Fixed some doc typos.
 
-Version 1.5.0.1
+Versão 1.5.0.1
 ===============
 
-Release Date: October 31, 2006
+Data de lançamento: Outubro 31, 2006
 
 -  Fixed a problem in which duplicate attempts to load helpers and
    classes were not being stopped.
@@ -1816,10 +1816,10 @@ Release Date: October 31, 2006
 -  Fixed an invalid color Hex number in the Profiler class.
 -  Fixed a corrupted image in the user guide.
 
-Version 1.5.0
+Versão 1.5.0
 =============
 
-Release Date: October 30, 2006
+Data de lançamento: Outubro 30, 2006
 
 -  Added :doc:`DB utility class <./database/utilities>`, permitting DB
    backups, CVS or XML files from DB results, and various other
@@ -1889,7 +1889,7 @@ Release Date: October 30, 2006
    block level elements in paragraph tags.
 -  Fixed a problem in the form_prep() function that was double encoding
    entities.
--  Fixed a bug that affects some versions of PHP when output buffering
+-  Fixed a bug that affects some Versãos of PHP when output buffering
    is nested.
 -  Fixed a bug that caused CI to stop working when the PHP magic
    __get() or __set() functions were used within models or
@@ -1908,10 +1908,10 @@ Release Date: October 30, 2006
    file. Instead, $config['log_threshold'] can be set to "0" to turn it
    off.
 
-Version 1.4.1
+Versão 1.4.1
 =============
 
-Release Date: September 21, 2006
+Data de lançamento: Setembro 21, 2006
 
 -  Added a new feature that passes URI segments directly to your
    function calls as parameters. See the
@@ -1968,10 +1968,10 @@ Release Date: September 21, 2006
 -  Deprecated the following database functions:
    $this->db->smart_escape_str() and $this->db->fields().
 
-Version 1.4.0
+Versão 1.4.0
 =============
 
-Release Date: September 17, 2006
+Data de lançamento: Setembro 17, 2006
 
 -  Added :doc:`Hooks <./general/hooks>` feature, enabling you to tap
    into and modify the inner workings of the framework without hacking
@@ -2034,7 +2034,7 @@ Release Date: September 17, 2006
 -  Fixed a session bug caused by the XSS Filtering feature inadvertently
    changing the case of certain words.
 -  Fixed some missing prefixes when using the database prefix feature.
--  Fixed a typo in the Calendar class (cal_november).
+-  Fixed a typo in the Calendar class (cal_Novembro).
 -  Fixed a bug in the form_checkbox() helper.
 -  Fixed a bug that was allowing the second segment of the URI to be
    identical to the class name.
@@ -2058,13 +2058,13 @@ Release Date: September 17, 2006
 -  Fixed some MS SQL bugs.
 -  Fixed some doc typos.
 
-Version 1.3.3
+Versão 1.3.3
 =============
 
-Release Date: June 1, 2006
+Data de lançamento: Junho 1, 2006
 
 -  Models do **not** connect automatically to the database as of this
-   version. :doc:`More info here <./general/models>`.
+   Versão. :doc:`More info here <./general/models>`.
 -  Updated the Sessions class to utilize the active record class when
    running session related queries. Previously the queries assumed MySQL
    syntax.
@@ -2076,7 +2076,7 @@ Release Date: June 1, 2006
 -  Fixed a bug in the word_limiter() helper function. It was cutting
    off the fist word.
 -  Fixed a bug in the xss_clean function due to a PHP bug that affects
-   some versions of html_entity_decode.
+   some Versãos of html_entity_decode.
 -  Fixed a validation bug that was preventing rules from being set twice
    in one controller.
 -  Fixed a calendar bug that was not letting it use dynamically loaded
@@ -2086,10 +2086,10 @@ Release Date: June 1, 2006
 -  Fixed a bug in the hash() security helper.
 -  Fixed some typos.
 
-Version 1.3.2
+Versão 1.3.2
 =============
 
-Release Date: April 17, 2006
+Data de lançamento: Abril 17, 2006
 
 -  Changed the behavior of the validation class such that if a
    "required" rule is NOT explicitly stated for a field then all other
@@ -2103,10 +2103,10 @@ Release Date: April 17, 2006
 -  Fixed a couple bugs in the Model class.
 -  Fixed some documentation typos and errata.
 
-Version 1.3.1
+Versão 1.3.1
 =============
 
-Release Date: April 11, 2006
+Data de lançamento: Abril 11, 2006
 
 -  Added a :doc:`Unit Testing Library <./libraries/unit_testing>`.
 -  Added the ability to pass objects to the **insert()** and
@@ -2136,10 +2136,10 @@ Release Date: April 11, 2006
 -  Fixed a bug in the "exact_length" function of the validation class.
 -  Fixed some typos in the user guide
 
-Version 1.3
+Versão 1.3
 ===========
 
-Release Date: April 3, 2006
+Data de lançamento: Abril 3, 2006
 
 -  Added support for :doc:`Models <general/models>`.
 -  Redesigned the database libraries to support additional RDBMs
@@ -2188,10 +2188,10 @@ Release Date: April 3, 2006
 -  Fixed some typos in the default calendar template
 -  Fixed some typos in the user guide
 
-Version 1.2
+Versão 1.2
 ===========
 
-Release Date: March 21, 2006
+Data de lançamento: Março 21, 2006
 
 -  Redesigned some internal aspects of the framework to resolve scoping
    problems that surfaced during the beta tests. The problem was most
@@ -2223,24 +2223,24 @@ Release Date: March 21, 2006
    marks in the replacement data.
 -  Fixed some bugs in the xss_clean function
 
-Version Beta 1.1
+Versão Beta 1.1
 ================
 
-Release Date: March 10, 2006
+Data de lançamento: 10 de Março de 2006
 
--  Added a :doc:`Calendaring class <./libraries/calendar>`.
--  Added support for running :doc:`multiple
-   applications <general/managing_apps>` that share a common CodeIgniter
-   backend.
--  Moved the "uri protocol" variable from the index.php file into the
-   config.php file
--  Fixed a problem that was preventing certain function calls from
-   working within constructors.
--  Fixed a problem that was preventing the $this->load->library function
-   from working in constructors.
--  Fixed a bug that occurred when the session class was loaded using the
-   auto-load routine.
--  Fixed a bug that can happen with PHP versions that do not support the
+-  Adicionado :doc:`Calendaring class <./libraries/calendar>`.
+-  Adicionado suporte a :doc:`múltiplas
+   aplicações <general/managing_apps>` que compartilham o mesmo backend
+   do CodeIgniter.
+-  Movida a variável "uri protocol" do arquivo index.php file para o
+   arquivo config.php
+-  Resolvido um problema que evitava certas chamadas de funções
+   funcionasse nos construtores.
+-  Resolvido um problema que evitava a função $this->load->library funcionasse
+   nos construtores.
+-  Resolvido um bu que ocorria quando a classe session era carregada usando o
+   auto-load.
+-  Fixed a bug that can happen with PHP versões that do not support the
    E_STRICT constant
 -  Fixed a data type error in the form_radio function (form helper)
 -  Fixed a bug that was preventing the xss_clean function from being
@@ -2257,9 +2257,9 @@ Release Date: March 10, 2006
 -  Updated the documentation. Added "next/previous" links to each page
    and fixed various typos.
 
-Version Beta 1.0
+Versão Beta 1.0
 ================
 
-Release Date: February 28, 2006
+Data de lançamento: 28 de Fevereiro de 2006
 
-First publicly released version.
+Lançamento da versão pública.
