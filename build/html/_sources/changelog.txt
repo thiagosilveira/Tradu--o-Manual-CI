@@ -2226,7 +2226,7 @@ Data de lançamento: Março 21, 2006
 Versão Beta 1.1
 ================
 
-Data de lançamento: Março 10, 2006
+Data de lançamento: 10 de Março de 2006
 
 -  Adicionado :doc:`Calendaring class <./libraries/calendar>`.
 -  Adicionado suporte a :doc:`múltiplas
