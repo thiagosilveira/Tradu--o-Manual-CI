@@ -25,7 +25,7 @@ CodeIgniter é para si se:
    restritivas regras de codificação.
 -  Você não está interessado em grandes bibliotecas monolíticas como PEAR.
 -  Você não quer ser forçado a aprender uma linguagem de template (um
-   parser de template está disponível caso queira utiliza-ló).
+   parser de template está disponível caso queira utiliza-lo).
 -  Você evita a complexidade, favorecendo soluções simples.
 -  Você precisa de uma documentação limpa.
 
